@@ -16,7 +16,7 @@ k3sup join --ip 192.168.0.12 --server-ip 192.168.0.10 --user riley --k3s-version
 
 ## raw
 ### oca0 
-k3sup install --ip 10.0.0.117 --external-ip 10.0.0.117 --k3s-extra-args '--disable=traefik' --k3s-version v1.30.1+k3s1 --user ubuntu
+k3sup instal --ip 10.0.0.117 --external-ip 10.0.0.117 --k3s-extra-args '--disable=traefik' --k3s-version v1.30.1+k3s1 --user ubuntu
 k3sup join --ip 10.0.0.31 --server-ip 10.0.0.117 --k3s-version v1.30.1+k3s1 --user ubuntu --server-user ubuntu
 k3sup join --ip 10.0.0.82 --server-ip 10.0.0.117 --k3s-version v1.30.1+k3s1 --user ubuntu --server-user ubuntu
 k3sup join --ip 10.0.0.242 --server-ip 10.0.0.117 --k3s-version v1.30.1+k3s1 --user ubuntu --server-user ubuntu
